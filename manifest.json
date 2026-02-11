@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Open in Default Browser",
+  "version": "1.0",
+  "description": "Open links with system default handler",
+  "applications": {
+    "gecko": {
+      "id": "open-in-default@huser-berta.com"
+    }
+  },
+
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
